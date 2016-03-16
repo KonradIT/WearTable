@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Periodic Table</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="title_activity_element_list">ElementList</string>
+    <string name="title_activity_element_info">ElementInfo</string>
+    <string name="title_activity_element__table">Element_Table</string>
+    <string name="title_activity_atomic_number">AtomicNumberActivity</string>
+    <string-array name="list1">
+        <item> lithium (Li)</item><item> sodium (Na)</item><item> potassium (K)</item><item> rubidium (Rb)</item><item> caesium (Cs)</item><item> francium (Fr)</item>
+    </string-array>
+    <string-array name="list2">
+        <item>beryllium (Be)</item><item> magnesium (Mg)</item><item> calcium (Ca)</item><item> strontium (Sr)</item><item> barium (Ba)</item><item> and radium (Ra)</item>
+    </string-array>
+    <string-array name="list3">
+        <item> Scandium (Sc)</item><item> yttrium (Y)</item><item>lanthanum (La)</item><item> actinium (Ac)</item><item> lutetium (Lu)</item><item> lawrencium (Lr)</item>
+    </string-array>
+    <string-array name="list4">
+        <item></item>
+    </string-array>
+    <string-array name="list5">
+        <item></item>
+    </string-array>
+    <string-array name="list6">
+        <item></item>
+    </string-array>
+    <string-array name="list7">
+        <item></item>
+    </string-array>
+    <string-array name="list8">
+        <item></item>
+    </string-array>
+    <string-array name="list9">
+        <item></item>
+    </string-array>
+    <string-array name="list10">
+        <item></item>
+    </string-array>
+    <string-array name="list11">
+        <item></item>
+    </string-array>
+    <string-array name="list12">
+        <item></item>
+    </string-array>
+    <string-array name="list13">
+        <item></item>
+    </string-array>
+    <string-array name="list14">
+        <item></item>
+    </string-array>
+    <string-array name="list15">
+        <item></item>
+    </string-array>
+    <string-array name="list16">
+        <item></item>
+    </string-array>
+    <string-array name="list17">
+        <item></item>
+    </string-array>
+    <string-array name="list18">
+        <item></item>
+    </string-array>
+</resources>
