@@ -7,57 +7,111 @@
     <string name="title_activity_element__table">Element_Table</string>
     <string name="title_activity_atomic_number">AtomicNumberActivity</string>
     <string-array name="list1">
-        <item> lithium (Li)</item><item> sodium (Na)</item><item> potassium (K)</item><item> rubidium (Rb)</item><item> caesium (Cs)</item><item> francium (Fr)</item>
+        <item> hydrogen (H)</item><item> lithium (Li)</item><item> sodium (Na)</item><item> potassium (K)</item><item> rubidium (Rb)</item><item> caesium (Cs)</item><item> francium (Fr)</item>
+    </string-array>
+    <string-array name="list1_atomic">
+        <item>1</item><item>3</item><item>11</item><item>19</item><item>37</item><item>55</item><item>87</item>
     </string-array>
     <string-array name="list2">
         <item>beryllium (Be)</item><item> magnesium (Mg)</item><item> calcium (Ca)</item><item> strontium (Sr)</item><item> barium (Ba)</item><item> radium (Ra)</item>
     </string-array>
+    <string-array name="list2_atomic">
+        <item>4</item><item>12</item><item>20</item><item>38</item><item>56</item><item>88</item>
+    </string-array>
     <string-array name="list3">
         <item> Scandium (Sc)</item><item> yttrium (Y)</item><item>lanthanum (La)</item><item> actinium (Ac)</item><item> lutetium (Lu)</item><item> lawrencium (Lr)</item>
+    </string-array>
+    <string-array name="list3_atomic">
+        <item>21</item><item>39</item><item>57</item><item>89</item><item>71</item><item>103</item>
     </string-array>
     <string-array name="list4">
         <item> titanium (Ti)</item><item> zirconium (Zr)</item><item> hafnium (Hf)</item><item> rutherfordium (Rf)</item>
     </string-array>
+    <string-array name="list4_atomic">
+        <item> 22</item><item> 40</item><item>72</item><item>104</item>
+    </string-array>
     <string-array name="list5">
         <item>vanadium (V)</item><item> niobium (Nb)</item><item> tantalum (Ta)</item><item> dubnium (Db)</item>
+    </string-array>
+    <string-array name="list5_atomic">
+        <item>23</item><item>41</item><item>73</item><item>105</item>
     </string-array>
     <string-array name="list6">
         <item> chromium (Cr)</item><item> molybdenum (Mo)</item><item> tungsten (W)</item><item> seaborgium (Sg)</item>
     </string-array>
+    <string-array name="list6_atomic">
+        <item>24</item><item>42</item><item>74</item><item>106</item>
+    </string-array>
     <string-array name="list7">
         <item> manganese (Mn)</item><item> technetium (Tc)</item><item> rhenium (Re)</item><item> bohrium (Bh)</item>
+    </string-array>
+    <string-array name="list7_atomic">
+        <item>25</item><item>43</item><item>75</item><item>107</item>
     </string-array>
     <string-array name="list8">
         <item> iron (Fe)</item><item> ruthenium (Ru)</item><item> osmium (Os)</item><item> hassium (Hs)</item>
     </string-array>
+    <string-array name="list8_atomic">
+        <item>26</item><item>44</item><item>76</item><item>108</item>
+    </string-array>
     <string-array name="list9">
         <item>cobalt (Co)</item><item> rhodium (Rh)</item><item> iridium (Ir)</item><item> meitnerium (Mt)</item>
+    </string-array>
+    <string-array name="list9_atomic">
+        <item>27</item><item>45</item><item>77</item><item>109</item>
     </string-array>
     <string-array name="list10">
         <item>nickel (Ni)</item><item> palladium (Pd)</item><item> platinum (Pt)</item><item> darmstadtium (Ds)</item>
     </string-array>
+    <string-array name="list10_atomic">
+        <item>28</item><item>46</item><item>78</item><item>110</item>
+    </string-array>
     <string-array name="list11">
-        <item>copper (Cu)</item><item> silver (Ag)</item><item> gold (Au)</item>
+        <item>copper (Cu)</item><item> silver (Ag)</item><item> gold (Au)</item><item> roentgenium (Rg)</item>
+    </string-array>
+    <string-array name="list11_atomic">
+        <item>29</item><item>47</item><item>79</item><item>111</item>
     </string-array>
     <string-array name="list12">
-        <item>zinc (Zn)</item><item> cadmium (Cd)</item><item> mercury (Hg)</item>
+        <item>zinc (Zn)</item><item> cadmium (Cd)</item><item> mercury (Hg)</item><item> copernicium (Cn)</item>
+    </string-array>
+    <string-array name="list12_atomic">
+        <item>30</item><item>48</item><item>80</item><item>112</item>
     </string-array>
     <string-array name="list13">
-        <item>boron (B)</item><item> aluminium (Al)</item><item> gallium (Ga)</item><item> indium (In)</item><item> thallium (Tl)</item>
+        <item>boron (B)</item><item> aluminium (Al)</item><item> gallium (Ga)</item><item> indium (In)</item><item> thallium (Tl)</item><item> ununtrium (Uut)</item>
+    </string-array>
+    <string-array name="list13_atomic">
+        <item>5</item><item>13</item><item>31</item><item>49</item><item>81</item><item>113</item>
     </string-array>
     <string-array name="list14">
-        <item>carbon (C)</item><item> silicon (Si)</item><item> germanium (Ge)</item><item> tin (Sn)</item><item> lead (Pb)</item><item> flerovium (Fl).</item>
+        <item>carbon (C)</item><item> silicon (Si)</item><item> germanium (Ge)</item><item> tin (Sn)</item><item> lead (Pb)</item><item> flerovium (Fl)</item>
+    </string-array>
+    <string-array name="list14_atomic">
+        <item>6</item><item>14</item><item>32</item><item>50</item><item>82</item><item>114</item>
     </string-array>
     <string-array name="list15">
-        <item>nitrogen (N)</item><item> phosphorus (P)</item><item> arsenic (As)</item><item> antimony (Sb)</item><item> bismuth (Bi)</item>
+        <item>nitrogen (N)</item><item> phosphorus (P)</item><item> arsenic (As)</item><item> antimony (Sb)</item><item> bismuth (Bi)</item><item> ununpentium (Uup)</item>
+    </string-array>
+    <string-array name="list15_atomic">
+        <item>7</item><item>15</item><item>33</item><item>51</item><item>83</item><item>115</item>
     </string-array>
     <string-array name="list16">
-        <item>oxygen (O)</item><item> sulfur (S)</item><item> selenium (Se)</item><item> tellurium (Te)</item>
+        <item>oxygen (O)</item><item> sulfur (S)</item><item> selenium (Se)</item><item> tellurium (Te)</item><item> polonium (Po)</item><item> livermorium (Lv)</item>
+    </string-array>
+    <string-array name="list16_atomic">
+        <item>8</item><item>16</item><item>34</item><item>52</item><item>84</item><item>116</item>
     </string-array>
     <string-array name="list17">
         <item>fluorine (F)</item><item> chlorine (Cl)</item><item> bromine (Br)</item><item> iodine (I)</item><item> astatine (At)</item>
     </string-array>
+    <string-array name="list17_atomic">
+        <item>9</item><item>17</item><item>35</item><item>53</item><item>85</item>
+    </string-array>
     <string-array name="list18">
         <item> helium (He)</item><item> neon (Ne)</item><item> argon (Ar)</item><item> krypton (Kr)</item><item> xenon (Xe)</item>
+    </string-array>
+    <string-array name="list18_atomic">
+        <item>2</item><item>10</item><item>18</item><item>36</item><item>54</item>
     </string-array>
 </resources>

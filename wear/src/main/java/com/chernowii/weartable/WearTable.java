@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class WearTable extends Activity {
     int progress = 0;
-    String[] TestList = new String[]{"Ankit", "Bohra", "Xyz"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,9 +47,11 @@ public class WearTable extends Activity {
                     @Override
                     public void onClick(View v) {
                         String[] TheElementsList = assignListToID();
+                        String[] AtomicNumberForList = assignAtomicNumbersToList();
                         Intent startIntent = new Intent(getApplicationContext(), DetailedActivity.class);
                         startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startIntent.putExtra("list", TheElementsList);
+                        startIntent.putExtra("atomic_number", AtomicNumberForList);
                         startActivity(startIntent);
                     }
                 });
@@ -116,5 +118,67 @@ public class WearTable extends Activity {
                 List = getResources().getStringArray(R.array.list18);
         }
     return List;
+    }
+    public String[] assignAtomicNumbersToList(){
+        String[] List = new String[0];
+        switch(progress){
+
+            case 1:
+                List = getResources().getStringArray(R.array.list1_atomic);
+                break;
+            case 2:
+                List = getResources().getStringArray(R.array.list2_atomic);
+                break;
+            case 3:
+                List = getResources().getStringArray(R.array.list3_atomic);
+                break;
+            case 4:
+                List = getResources().getStringArray(R.array.list4_atomic);
+                break;
+            case 5:
+                List = getResources().getStringArray(R.array.list5_atomic);
+                break;
+
+            case 6:
+                List = getResources().getStringArray(R.array.list6_atomic);
+                break;
+            case 7:
+                List = getResources().getStringArray(R.array.list7_atomic);
+                break;
+            case 8:
+                List = getResources().getStringArray(R.array.list8_atomic);
+                break;
+            case 9:
+                List = getResources().getStringArray(R.array.list9_atomic);
+                break;
+            case 10:
+                List = getResources().getStringArray(R.array.list10_atomic);
+                break;
+            case 11:
+                List = getResources().getStringArray(R.array.list11_atomic);
+                break;
+            case 12:
+                List = getResources().getStringArray(R.array.list12_atomic);
+                break;
+            case 13:
+                List = getResources().getStringArray(R.array.list13_atomic);
+                break;
+            case 14:
+                List = getResources().getStringArray(R.array.list14_atomic);
+                break;
+            case 15:
+                List = getResources().getStringArray(R.array.list15_atomic);
+                break;
+            case 16:
+                List = getResources().getStringArray(R.array.list16_atomic);
+                break;
+            case 17:
+                List = getResources().getStringArray(R.array.list17_atomic);
+                break;
+            case 18:
+                List = getResources().getStringArray(R.array.list18_atomic);
+
+        }
+        return List;
     }
 }

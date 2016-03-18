@@ -1,6 +1,8 @@
 package com.chernowii.weartable;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,16 +23,19 @@ import java.util.ArrayList;
 public class DetailedActivity extends Activity
         implements WearableListView.ClickListener {
 
-    // Sample dataset for the list
     String[] elements = {};
+    String[] atomicNumber = {};
 
-@Override
+
+        @Override
 protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_element_list);
         Intent intent = getIntent();
-        elements = intent.getStringArrayExtra("list");
-        // Get the list component from the layout of the activity
+            elements = intent.getStringArrayExtra("list");
+            atomicNumber = intent.getStringArrayExtra("atomic_number");
+
+            // Get the list component from the layout of the activity
         WearableListView listView =
         (WearableListView) findViewById(R.id.wearable_list);
 
@@ -45,7 +50,15 @@ protected void onCreate(Bundle savedInstanceState) {
 @Override
 public void onClick(WearableListView.ViewHolder v) {
         String selectedElement = elements[v.getPosition()];
-        Toast.makeText(this, "Element: " + selectedElement, Toast.LENGTH_SHORT).show();
+        String selectedAtomicNumber = atomicNumber[v.getPosition()];
+    new AlertDialog.Builder(DetailedActivity.this)
+                .setTitle(selectedElement)
+                .setMessage("Atomic Number: " + selectedAtomicNumber)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                        }
+                })
+                .show();
 }
 
 @Override
