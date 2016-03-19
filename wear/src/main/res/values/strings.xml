@@ -12,11 +12,17 @@
     <string-array name="list1_atomic">
         <item>1</item><item>3</item><item>11</item><item>19</item><item>37</item><item>55</item><item>87</item>
     </string-array>
+    <string-array name="list1_mass">
+        <item>1.0079</item><item>6.941</item><item>22.9897</item><item>39.0983</item><item>85.4678</item><item>132.9055</item><item>223</item>
+    </string-array>
     <string-array name="list2">
         <item>beryllium (Be)</item><item> magnesium (Mg)</item><item> calcium (Ca)</item><item> strontium (Sr)</item><item> barium (Ba)</item><item> radium (Ra)</item>
     </string-array>
     <string-array name="list2_atomic">
         <item>4</item><item>12</item><item>20</item><item>38</item><item>56</item><item>88</item>
+    </string-array>
+    <string-array name="list2_mass">
+        <item>9.0122</item><item>24.305</item><item>40.078</item><item>87.62</item><item>137.327</item><item>226</item>
     </string-array>
     <string-array name="list3">
         <item> Scandium (Sc)</item><item> yttrium (Y)</item><item>lanthanum (La)</item><item> actinium (Ac)</item><item> lutetium (Lu)</item><item> lawrencium (Lr)</item>
@@ -24,17 +30,26 @@
     <string-array name="list3_atomic">
         <item>21</item><item>39</item><item>57</item><item>89</item><item>71</item><item>103</item>
     </string-array>
+    <string-array name="list3_mass">
+        <item>44.9559</item><item>88.9059</item><item>138.9055</item><item>227</item><item>NONE FOUND</item><item>NONE FOUND</item>
+    </string-array>
     <string-array name="list4">
         <item> titanium (Ti)</item><item> zirconium (Zr)</item><item> hafnium (Hf)</item><item> rutherfordium (Rf)</item>
     </string-array>
     <string-array name="list4_atomic">
         <item> 22</item><item> 40</item><item>72</item><item>104</item>
     </string-array>
+    <string-array name="list4_mass">
+        <item>47.867</item><item>91.224</item><item>178.49</item><item>261</item>
+    </string-array>
     <string-array name="list5">
         <item>vanadium (V)</item><item> niobium (Nb)</item><item> tantalum (Ta)</item><item> dubnium (Db)</item>
     </string-array>
     <string-array name="list5_atomic">
         <item>23</item><item>41</item><item>73</item><item>105</item>
+    </string-array>
+    <string-array name="list5_mass">
+        <item>50.9415</item><item>92.9064</item><item>73</item><item>105</item>
     </string-array>
     <string-array name="list6">
         <item> chromium (Cr)</item><item> molybdenum (Mo)</item><item> tungsten (W)</item><item> seaborgium (Sg)</item>

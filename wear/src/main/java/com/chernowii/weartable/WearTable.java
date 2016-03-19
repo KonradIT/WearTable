@@ -48,10 +48,12 @@ public class WearTable extends Activity {
                     public void onClick(View v) {
                         String[] TheElementsList = assignListToID();
                         String[] AtomicNumberForList = assignAtomicNumbersToList();
+                        String[] MassList = assignMassToList();
                         Intent startIntent = new Intent(getApplicationContext(), DetailedActivity.class);
                         startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startIntent.putExtra("list", TheElementsList);
                         startIntent.putExtra("atomic_number", AtomicNumberForList);
+                        startIntent.putExtra("mass", MassList);
                         startActivity(startIntent);
                     }
                 });
@@ -177,6 +179,67 @@ public class WearTable extends Activity {
                 break;
             case 18:
                 List = getResources().getStringArray(R.array.list18_atomic);
+
+        }
+        return List;
+    }
+    public String[] assignMassToList(){
+        String[] List = new String[0];
+        switch(progress){
+
+            case 1:
+                List = getResources().getStringArray(R.array.list1_mass);
+                break;
+            case 2:
+                List = getResources().getStringArray(R.array.list2_mass);
+                break;
+            case 3:
+                List = getResources().getStringArray(R.array.list3_mass);
+                break;
+            case 4:
+                List = getResources().getStringArray(R.array.list4_mass);
+                break;
+            case 5:
+                List = getResources().getStringArray(R.array.list5_mass);
+                break;
+            case 6:
+                List = getResources().getStringArray(R.array.list6_mass);
+                break;
+            case 7:
+                List = getResources().getStringArray(R.array.list7_mass);
+                break;
+            case 8:
+                List = getResources().getStringArray(R.array.list8_mass);
+                break;
+            case 9:
+                List = getResources().getStringArray(R.array.list9_mass);
+                break;
+            case 10:
+                List = getResources().getStringArray(R.array.list10_mass);
+                break;
+            case 11:
+                List = getResources().getStringArray(R.array.list11_mass);
+                break;
+            case 12:
+                List = getResources().getStringArray(R.array.list12_mass);
+                break;
+            case 13:
+                List = getResources().getStringArray(R.array.list13_mass);
+                break;
+            case 14:
+                List = getResources().getStringArray(R.array.list14_mass);
+                break;
+            case 15:
+                List = getResources().getStringArray(R.array.list15_mass);
+                break;
+            case 16:
+                List = getResources().getStringArray(R.array.list16_mass);
+                break;
+            case 17:
+                List = getResources().getStringArray(R.array.list17_mass);
+                break;
+            case 18:
+                List = getResources().getStringArray(R.array.list18_mass);
 
         }
         return List;

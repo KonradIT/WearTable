@@ -21,11 +21,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/slider_bar"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
         android:max="17"
-        android:indeterminate="false" />
+        android:indeterminate="false"
+        android:layout_above="@+id/getGrpID"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:text="Slide the slider to choose a desired group"
         android:id="@+id/textView2"
         android:gravity="center"
-        android:layout_above="@+id/slider_bar"
+        android:layout_below="@+id/textView"
         android:layout_alignParentStart="true" />
 
     <TextView
@@ -42,7 +42,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Group: "
         android:id="@+id/textView3"
-        android:layout_below="@+id/slider_bar"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="X"
         android:id="@+id/groupId"
-        android:layout_below="@+id/slider_bar"
+        android:layout_alignTop="@+id/textView3"
         android:layout_toEndOf="@+id/textView3" />
 
     <Button
@@ -59,6 +59,6 @@
         android:layout_height="wrap_content"
         android:text=">>"
         android:id="@+id/getGrpID"
-        android:layout_below="@+id/textView3"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
