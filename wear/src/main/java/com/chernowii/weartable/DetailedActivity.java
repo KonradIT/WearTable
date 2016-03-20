@@ -111,5 +111,17 @@ public void onTopEmptyRegionClick() {
         }
     public void nextGroup(){
     Number++;
+        String[] TheElementsList = getResources().getStringArray(Integer.parseInt("R.array.list"+ Number));
+        String[] AtomicNumberForList = getResources().getStringArray(Integer.parseInt("R.array.list"+ Number + "_atomic"));
+        String[] MassList = getResources().getStringArray(Integer.parseInt("R.array.list"+ Number + "_mass"));
+        int ListNumber = Number;
+
+        Intent startIntent = new Intent(getApplicationContext(), DetailedActivity.class);
+        startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startIntent.putExtra("list", TheElementsList);
+        startIntent.putExtra("atomic_number", AtomicNumberForList);
+        startIntent.putExtra("mass", MassList);
+        startIntent.putExtra("list_number", ListNumber);
+        startActivity(startIntent);
     }
         }
