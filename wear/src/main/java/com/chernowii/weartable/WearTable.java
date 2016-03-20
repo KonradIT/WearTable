@@ -49,11 +49,14 @@ public class WearTable extends Activity {
                         String[] TheElementsList = assignListToID();
                         String[] AtomicNumberForList = assignAtomicNumbersToList();
                         String[] MassList = assignMassToList();
+                        int ListNumber = ListNumber();
+
                         Intent startIntent = new Intent(getApplicationContext(), DetailedActivity.class);
                         startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startIntent.putExtra("list", TheElementsList);
                         startIntent.putExtra("atomic_number", AtomicNumberForList);
                         startIntent.putExtra("mass", MassList);
+                        startIntent.putExtra("list_number", ListNumber);
                         startActivity(startIntent);
                     }
                 });
@@ -179,6 +182,67 @@ public class WearTable extends Activity {
                 break;
             case 18:
                 List = getResources().getStringArray(R.array.list18_atomic);
+
+        }
+        return List;
+    }
+    public int ListNumber(){
+        int List = 0;
+        switch(progress){
+
+            case 1:
+                List = 1;
+                break;
+            case 2:
+                List = 2;
+                break;
+            case 3:
+                List = 3;
+                break;
+            case 4:
+                List = 4;
+                break;
+            case 5:
+                List = 5;
+                break;
+            case 6:
+                List = 6;
+                break;
+            case 7:
+                List = 7;
+                break;
+            case 8:
+                List = 8;
+                break;
+            case 9:
+                List = 9;
+                break;
+            case 10:
+                List = 10;
+                break;
+            case 11:
+                List = 11;
+                break;
+            case 12:
+                List = 12;
+                break;
+            case 13:
+                List = 13;
+                break;
+            case 14:
+                List = 14;
+                break;
+            case 15:
+                List = 15;
+                break;
+            case 16:
+                List = 16;
+                break;
+            case 17:
+                List = 17;
+                break;
+            case 18:
+                List = 18;
 
         }
         return List;

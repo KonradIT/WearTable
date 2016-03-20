@@ -57,11 +57,17 @@
     <string-array name="list6_atomic">
         <item>24</item><item>42</item><item>74</item><item>106</item>
     </string-array>
+    <string-array name="list6_mass">
+        <item>51.9961</item><item>95.94</item><item>183.84</item><item>266</item>
+    </string-array>
     <string-array name="list7">
         <item> manganese (Mn)</item><item> technetium (Tc)</item><item> rhenium (Re)</item><item> bohrium (Bh)</item>
     </string-array>
     <string-array name="list7_atomic">
         <item>25</item><item>43</item><item>75</item><item>107</item>
+    </string-array>
+    <string-array name="list7_mass">
+        <item>54.938</item><item>98</item><item>186.207</item><item>264</item>
     </string-array>
     <string-array name="list8">
         <item> iron (Fe)</item><item> ruthenium (Ru)</item><item> osmium (Os)</item><item> hassium (Hs)</item>
@@ -69,11 +75,17 @@
     <string-array name="list8_atomic">
         <item>26</item><item>44</item><item>76</item><item>108</item>
     </string-array>
+    <string-array name="list8_mass">
+        <item>55.845</item><item>101.07</item><item>190.23</item><item>277</item>
+    </string-array>
     <string-array name="list9">
         <item>cobalt (Co)</item><item> rhodium (Rh)</item><item> iridium (Ir)</item><item> meitnerium (Mt)</item>
     </string-array>
     <string-array name="list9_atomic">
         <item>27</item><item>45</item><item>77</item><item>109</item>
+    </string-array>
+    <string-array name="list9_mass">
+        <item>58.9332</item><item>102.9055</item><item>192.217</item><item>268</item>
     </string-array>
     <string-array name="list10">
         <item>nickel (Ni)</item><item> palladium (Pd)</item><item> platinum (Pt)</item><item> darmstadtium (Ds)</item>
@@ -81,11 +93,17 @@
     <string-array name="list10_atomic">
         <item>28</item><item>46</item><item>78</item><item>110</item>
     </string-array>
+    <string-array name="list10_mass">
+        <item>58.6934</item><item>106.42</item><item>195.078</item><item>63.546</item>
+    </string-array>
     <string-array name="list11">
         <item>copper (Cu)</item><item> silver (Ag)</item><item> gold (Au)</item><item> roentgenium (Rg)</item>
     </string-array>
     <string-array name="list11_atomic">
         <item>29</item><item>47</item><item>79</item><item>111</item>
+    </string-array>
+    <string-array name="list11_mass">
+        <item>63.546</item><item>107.8682</item><item>196.9665</item><item>NONE FOUND</item>
     </string-array>
     <string-array name="list12">
         <item>zinc (Zn)</item><item> cadmium (Cd)</item><item> mercury (Hg)</item><item> copernicium (Cn)</item>
@@ -93,11 +111,17 @@
     <string-array name="list12_atomic">
         <item>30</item><item>48</item><item>80</item><item>112</item>
     </string-array>
+    <string-array name="list12_mass">
+        <item>65.39</item><item>112.411</item><item>200.59</item><item>285</item>
+    </string-array>
     <string-array name="list13">
         <item>boron (B)</item><item> aluminium (Al)</item><item> gallium (Ga)</item><item> indium (In)</item><item> thallium (Tl)</item><item> ununtrium (Uut)</item>
     </string-array>
     <string-array name="list13_atomic">
         <item>5</item><item>13</item><item>31</item><item>49</item><item>81</item><item>113</item>
+    </string-array>
+    <string-array name="list13_mass">
+        <item>10.811</item><item>26.9815</item><item>69.723</item><item>114.818</item><item>204.3833</item><item>284</item>
     </string-array>
     <string-array name="list14">
         <item>carbon (C)</item><item> silicon (Si)</item><item> germanium (Ge)</item><item> tin (Sn)</item><item> lead (Pb)</item><item> flerovium (Fl)</item>
@@ -105,11 +129,17 @@
     <string-array name="list14_atomic">
         <item>6</item><item>14</item><item>32</item><item>50</item><item>82</item><item>114</item>
     </string-array>
+    <string-array name="list14_mass">
+        <item>12.0107</item><item>28.0855</item><item>72.64</item><item>118.71</item><item>	207.2</item><item>285</item>
+    </string-array>
     <string-array name="list15">
         <item>nitrogen (N)</item><item> phosphorus (P)</item><item> arsenic (As)</item><item> antimony (Sb)</item><item> bismuth (Bi)</item><item> ununpentium (Uup)</item>
     </string-array>
     <string-array name="list15_atomic">
         <item>7</item><item>15</item><item>33</item><item>51</item><item>83</item><item>115</item>
+    </string-array>
+    <string-array name="list15_mass">
+        <item>14.0067</item><item>30.9738</item><item>74.9216</item><item>121.76</item><item>208.9804</item><item>288</item>
     </string-array>
     <string-array name="list16">
         <item>oxygen (O)</item><item> sulfur (S)</item><item> selenium (Se)</item><item> tellurium (Te)</item><item> polonium (Po)</item><item> livermorium (Lv)</item>
@@ -117,16 +147,25 @@
     <string-array name="list16_atomic">
         <item>8</item><item>16</item><item>34</item><item>52</item><item>84</item><item>116</item>
     </string-array>
+    <string-array name="list16_mass">
+        <item>15.9994</item><item>32.065</item><item>78.96</item><item>127.6</item><item>209</item><item>292</item>
+    </string-array>
     <string-array name="list17">
         <item>fluorine (F)</item><item> chlorine (Cl)</item><item> bromine (Br)</item><item> iodine (I)</item><item> astatine (At)</item>
     </string-array>
     <string-array name="list17_atomic">
         <item>9</item><item>17</item><item>35</item><item>53</item><item>85</item>
     </string-array>
+    <string-array name="list17_mass">
+        <item>18.9984</item><item>35.453</item><item>79.904</item><item>126.9045</item><item>210</item>
+    </string-array>
     <string-array name="list18">
         <item> helium (He)</item><item> neon (Ne)</item><item> argon (Ar)</item><item> krypton (Kr)</item><item> xenon (Xe)</item>
     </string-array>
     <string-array name="list18_atomic">
         <item>2</item><item>10</item><item>18</item><item>36</item><item>54</item>
+    </string-array>
+    <string-array name="list18_mass">
+        <item>4.0026</item><item>20.1797</item><item>39.948</item><item>83.8</item><item>131.293</item>
     </string-array>
 </resources>

@@ -31,7 +31,7 @@ public class DetailedActivity extends Activity
     String[] elements = {};
     String[] atomicNumber = {};
     String[] Mass = {};
-
+    int Number = 0;
     String APP_TAG = "Periodic Table Debug";
 
         @Override
@@ -42,6 +42,7 @@ protected void onCreate(Bundle savedInstanceState) {
             elements = intent.getStringArrayExtra("list");
             atomicNumber = intent.getStringArrayExtra("atomic_number");
             Mass = intent.getStringArrayExtra("mass");
+            Number = intent.getIntExtra("list_number",0);
 
             // Get the list component from the layout of the activity
         WearableListView listView =
@@ -63,7 +64,6 @@ protected void onCreate(Bundle savedInstanceState) {
                         @Override
                         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,
                                                float velocityY) {
-                            Log.i(APP_TAG, "onFling has been called!");
                             final int SWIPE_MIN_DISTANCE = 120;
                             final int SWIPE_MAX_OFF_PATH = 250;
                             final int SWIPE_THRESHOLD_VELOCITY = 200;
@@ -109,6 +109,6 @@ public void onClick(WearableListView.ViewHolder v) {
 public void onTopEmptyRegionClick() {
         }
     public void nextGroup(){
-
+    Number++;
     }
         }
