@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.SyncStateContract;
+import android.support.wearable.activity.WearableActivity;
 import android.support.wearable.view.WearableListView;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -25,7 +26,7 @@ import java.util.ArrayList;
 /**
  * Created by Konrad Iturbe on 03/14/16.
  */
-public class DetailedActivity extends Activity
+public class DetailedActivity extends WearableActivity
         implements WearableListView.ClickListener {
 
     String[] elements = {};
@@ -43,7 +44,7 @@ protected void onCreate(Bundle savedInstanceState) {
             atomicNumber = intent.getStringArrayExtra("atomic_number");
             Mass = intent.getStringArrayExtra("mass");
             Number = intent.getIntExtra("list_number",0);
-
+            setAmbientEnabled();
             // Get the list component from the layout of the activity
         WearableListView listView =
         (WearableListView) findViewById(R.id.wearable_list);
